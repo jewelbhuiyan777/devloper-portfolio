@@ -8,12 +8,14 @@ h1{
 .orange-color{
     color:orange;
 }
-section{
+.flexible-container{
     display: flex;
+    margin-bottom: 150px;
 }
 .half-width{
     width: 50%;
     padding: 5%;
+    
 }
 .half-width img {
     width: 70%;
@@ -29,4 +31,43 @@ section{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+    
+  
+   
+    
+}
+.experince-area{
+   background-image: url(images/exp-bg.png); 
+   background-repeat:  no-repeat;
+   background-position: left;
+}
+.experince-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left:30px ;
+    border-radius: 10px;
+   box-shadow: 10px 10px 40px rgb(17, 226, 104); 
+   
+}
+#web-dev-ami{
+    border-left: 8px solid;
+border-image: linear-gradient(blue,aqua);
+border-image-slice: 1;
+}
+#tumi-wev-devloper{
+    border-left: 8px solid;
+    border-image: linear-gradient(salmon,rgb(7, 126, 236));
+    border-image-slice: 1;
+}
+footer p {
+    text-align: center;
+    color: lawngreen;
+    background-color: hotpink;
 }
